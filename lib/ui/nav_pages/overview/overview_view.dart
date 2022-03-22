@@ -5,14 +5,9 @@ class OverviewPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        child: const Text(
-          "Still under construction",
-          style: TextStyle(
-            fontSize: 16,
-          ),
-        ),
+    return Container(
+      child: const Center(
+        child: Text("Everything about you!"),
       ),
     );
   }
